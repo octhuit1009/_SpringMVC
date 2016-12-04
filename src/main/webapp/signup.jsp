@@ -9,18 +9,14 @@
 <%@ include file="common/inc.jsp"%>
 <html>
 <head>
-    <title>index page</title>
-    <link rel="stylesheet" href="${ctx}/static/css/style.css">
+    <title>sign up page</title>
 </head>
 <body>
-<h1>index page</h1>
-<form action="${ctx}/user/login" method="post">
+<h1>SIGN UP PAGE</h1>
+<form action="${ctx}/user/create" method="post">
     <input type="text" name="username" placeholder="USERNAME"><br>
     <input type="password" name="password" placeholder="PASSWORD"><br>
-    <input type="submit" value="LOGIN">
+    <input type="submit" value="SIGN UP">
 </form>
-${requestScope.message}
-<hr>
-<a href="${ctx}/signup.jsp">SIGN UP</a>
 </body>
 </html>

@@ -3,7 +3,7 @@ package model;
 import java.io.Serializable;
 
 /**
- * Created by Administrator on 2016/12/3.
+ * Created by Administrator on 2016/12/4.
  */
 public class User implements Serializable {
     private Integer id;
